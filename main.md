@@ -28,3 +28,4 @@ This one comes from the deploy keys
 And another one from the deploy keys repo
 
 SSH_DEPLOY_KEY updated (now without a new line at the end)
+Now using the correct deploy key
