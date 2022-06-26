@@ -26,7 +26,7 @@ jobs:
         with:
           source-directory: output/
           destination-github-username: 'cpina'
-          destination-repository-name: 'push-to-another-repository-output'
+          destination-repository-name: 'push-to-another-repository-example-empty'
           user-email: carles3@pina.cat
           commit-message: See ORIGIN_COMMIT from $GITHUB_REF
           target-branch: testing-does-not-exist
