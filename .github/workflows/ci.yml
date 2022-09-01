@@ -4,9 +4,9 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, filter-files ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, filter-files ]
 
 jobs:
   build:
