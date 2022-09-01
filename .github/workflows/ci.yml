@@ -19,7 +19,7 @@ jobs:
       - name: creates the wanted files in output_temp/ - example script
         run:  sh ./build.sh
       - name: filters output_temp/ to output/ using rsync (to exclude *.epub in this example)
-        run:  apk add rsync && rsync -arv --exclude="*.epub" output_temp/ output/
+        run:  apk add rsync && rsync -arv --exclude="output/main.epub" output_temp/ output/
       - name: Pushes to another repository
         id: push_directory
         uses: cpina/github-action-push-to-another-repository@main
