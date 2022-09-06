@@ -22,7 +22,7 @@ jobs:
         run:  apk add rsync && rsync -arv --exclude="/main.epub" output_temp/ output/
       - name: Pushes to another repository
         id: push_directory
-        uses: cpina/github-action-push-to-another-repository@main
+        uses: cpina/github-action-push-to-another-repository@debug-78
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
