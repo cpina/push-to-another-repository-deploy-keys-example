@@ -32,6 +32,6 @@ jobs:
           user-email: carles3@pina.cat
           commit-message: See ORIGIN_COMMIT from $GITHUB_REF
           target-branch: main
-          github-server: 'testingsomething.com'
+          github-server: 'github.com'
       - name: Test get variable exported by push-to-another-repository
         run: echo $DESTINATION_CLONED_DIRECTORY
